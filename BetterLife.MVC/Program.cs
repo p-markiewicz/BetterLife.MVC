@@ -13,7 +13,6 @@ builder.Services.AddControllersWithViews(options => options.SuppressImplicitRequ
 
 builder.Services.AddInfrastructure(builder.Configuration);
 builder.Services.AddApplication();
-//builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());//Sprawdzenie dzia³ania AutoMappera-test
 
 var app = builder.Build();
 
